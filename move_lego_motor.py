@@ -9,8 +9,8 @@ from thetas import theta_2
 import mqtt_CBR
 
 mqtt_broker = '10.245.46.38' 
-topic_sub = 'motor'
-topic_pub = 'motor'
+topic_sub = 'angles'
+topic_pub = 'angles'
 client_id = 'sophie'
 
 mqtt_CBR.connect_wifi(wifi)
